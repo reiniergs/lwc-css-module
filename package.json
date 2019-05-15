@@ -1,0 +1,14 @@
+{
+  "name": "lwc-css-module",
+  "version": "0.0.1",
+  "description": "A simple example of a LWC css module",
+  "main": "index.js",
+  "repository": "https://github.com/reiniergs/lwc-css-module.git",
+  "author": "Reinier Guerra <reinier.guerra@salesforce.com>",
+  "license": "MIT",
+  "lwc": {
+    "modules": {
+      "@salesforce/slds/button": "src/button/button.css"
+    }
+  }
+}
